@@ -1,4 +1,4 @@
-<h1 align="center"> State-Sync Peer for NibiruTest. </h1>
+<h1 align="center"> State-Sync Peer for Nibiru. </h1>
 To synchronize, you can use our peer by adding it to the config.toml file.
 
 ```
