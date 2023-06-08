@@ -7,7 +7,7 @@ ed73fb75efed6880f407585854b2c6d00c0f8eee@188.172.228.225:26636
 To add the peer, you can use the following instructions:
 ```
 PEERS=ed73fb75efed6880f407585854b2c6d00c0f8eee@188.172.228.225:26636
-sed -i.bak -e "s/^persistent_peers =./persistent_peers = "$PEERS"/" $HOME/.quicksilverd/config/config.toml
+sed -i.bak -e "s/^persistent_peers =./persistent_peers = "$PEERS"/" $HOME/.nibid/config/config.toml
 ```
 
 Alternatively, you can add it manually.
