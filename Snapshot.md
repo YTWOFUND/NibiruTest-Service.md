@@ -1,4 +1,4 @@
-<h1 align="center"> Snapshot User Guide </h1>
+<h1 align="center"> Snapshot User Guide (Temporarily not working) </h1>
 <h3 align="left"> The node snapshot is taken once a day, at 03:00 UTC +2. </h3>
 
 The snapshot is implemented through the tar archiver and compressed with lz4. To unpack the snapshot, it is necessary to install lz4.
