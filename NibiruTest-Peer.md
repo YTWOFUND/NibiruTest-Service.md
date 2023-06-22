@@ -2,11 +2,11 @@
 To synchronize, you can use our peer by adding it to the config.toml file.
 
 ```
-ed73fb75efed6880f407585854b2c6d00c0f8eee@188.172.228.225:26636
+613e133355a43be28b31d33d13c8814d6ea0c99f@185.216.176.209:13656
 ```
 To add the peer, you can use the following instructions:
 ```
-PEERS=ed73fb75efed6880f407585854b2c6d00c0f8eee@188.172.228.225:26636
+PEERS=613e133355a43be28b31d33d13c8814d6ea0c99f@185.216.176.209:13656
 sed -i.bak -e "s/^persistent_peers =./persistent_peers = "$PEERS"/" $HOME/.nibid/config/config.toml
 ```
 
